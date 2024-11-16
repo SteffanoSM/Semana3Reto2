@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.checkout-container {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.shipping-method {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 88px;
+    border: 1px solid #4f4f4f;
+    padding: 15px;
+}
+
+.gift{
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 5px;
+    color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ababab;
+}
